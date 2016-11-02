@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TimePeriodProtocol Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/TimePeriodProtocol" class="dashAnchor"></a>
+    <a title="TimePeriodProtocol Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TimePeriodProtocol Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriod.html">TimePeriod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriodChain.html">TimePeriodChain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C14DateToolsTests20TimePeriodCollection">TimePeriodCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriodGroup.html">TimePeriodGroup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Anchor.html">Anchor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Component.html">Component</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Interval.html">Interval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Relation.html">Relation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimeUnits.html">TimeUnits</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Bundle.html">Bundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TimePeriodProtocol.html">TimePeriodProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/TimeChunk.html">TimeChunk</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TimePeriodProtocol</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">TimePeriodProtocol</span></code></pre>
+
+                </div>
+              </div>
+            <p>In DateTools, time periods are represented by the TimePeriod protocol. 
+  Required variables and method impleementations are bound below. An inheritable 
+  implementation of the TimePeriodProtocol is available through the TimePeriodClass</p>
+
+<p><a href="https://github.com/MatthewYork/DateTools#time-periods">Visit our github page</a> for more information.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Variables"></a>
+                <a name="//apple_ref/swift/Section/Variables" class="dashAnchor"></a>
+                <a href="#/Variables">
+                  <h3 class="section-name">Variables</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vP14DateToolsTests18TimePeriodProtocol9beginningGSqV10Foundation4Date_"></a>
+                    <a name="//apple_ref/swift/Property/beginning" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vP14DateToolsTests18TimePeriodProtocol9beginningGSqV10Foundation4Date_">beginning</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The start date for a TimePeriod representing the starting boundary of the time period</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">beginning</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vP14DateToolsTests18TimePeriodProtocol3endGSqV10Foundation4Date_"></a>
+                    <a name="//apple_ref/swift/Property/end" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vP14DateToolsTests18TimePeriodProtocol3endGSqV10Foundation4Date_">end</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The end date for a TimePeriod representing the ending boundary of the time period</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">end</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Information"></a>
+                <a name="//apple_ref/swift/Section/Information" class="dashAnchor"></a>
+                <a href="#/Information">
+                  <h3 class="section-name">Information</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE14DateToolsTestsPS_18TimePeriodProtocol8isMomentSb"></a>
+                    <a name="//apple_ref/swift/Property/isMoment" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE14DateToolsTestsPS_18TimePeriodProtocol8isMomentSb">isMoment</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>True if the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>&rsquo;s duration is zero</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">isMoment</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE14DateToolsTestsPS_18TimePeriodProtocol5yearsSi"></a>
+                    <a name="//apple_ref/swift/Property/years" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE14DateToolsTestsPS_18TimePeriodProtocol5yearsSi">years</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The duration of the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> in years.
+Returns the max int if beginning or end are nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">years</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE14DateToolsTestsPS_18TimePeriodProtocol5weeksSi"></a>
+                    <a name="//apple_ref/swift/Property/weeks" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE14DateToolsTestsPS_18TimePeriodProtocol5weeksSi">weeks</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The duration of the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> in weeks.
+Returns the max int if beginning or end are nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">weeks</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE14DateToolsTestsPS_18TimePeriodProtocol4daysSi"></a>
+                    <a name="//apple_ref/swift/Property/days" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE14DateToolsTestsPS_18TimePeriodProtocol4daysSi">days</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The duration of the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> in days.
+Returns the max int if beginning or end are nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">days</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE14DateToolsTestsPS_18TimePeriodProtocol5hoursSi"></a>
+                    <a name="//apple_ref/swift/Property/hours" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE14DateToolsTestsPS_18TimePeriodProtocol5hoursSi">hours</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The duration of the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> in hours.
+Returns the max int if beginning or end are nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">hours</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE14DateToolsTestsPS_18TimePeriodProtocol7minutesSi"></a>
+                    <a name="//apple_ref/swift/Property/minutes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE14DateToolsTestsPS_18TimePeriodProtocol7minutesSi">minutes</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The duration of the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> in minutes.
+Returns the max int if beginning or end are nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">minutes</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE14DateToolsTestsPS_18TimePeriodProtocol7secondsSi"></a>
+                    <a name="//apple_ref/swift/Property/seconds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE14DateToolsTestsPS_18TimePeriodProtocol7secondsSi">seconds</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The duration of the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> in seconds.
+Returns the max int if beginning or end are nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">seconds</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE14DateToolsTestsPS_18TimePeriodProtocol5chunkVS_9TimeChunk"></a>
+                    <a name="//apple_ref/swift/Property/chunk" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE14DateToolsTestsPS_18TimePeriodProtocol5chunkVS_9TimeChunk">chunk</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The duration of the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> in a time chunk.
+Returns a time chunk with all zeroes if beginning or end are nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">chunk</span><span class="p">:</span> <span class="kt"><a href="../Structs/TimeChunk.html">TimeChunk</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE14DateToolsTestsPS_18TimePeriodProtocol8durationSd"></a>
+                    <a name="//apple_ref/swift/Property/duration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE14DateToolsTestsPS_18TimePeriodProtocol8durationSd">duration</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The length of time between the beginning and end dates of the
+<code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> as a <code>TimeInterval</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Time%20Period%20Relationships"></a>
+                <a name="//apple_ref/swift/Section/Time Period Relationships" class="dashAnchor"></a>
+                <a href="#/Time%20Period%20Relationships">
+                  <h3 class="section-name">Time Period Relationships</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol8relationFT2toPS0___OS_8Relation"></a>
+                    <a name="//apple_ref/swift/Method/relation(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol8relationFT2toPS0___OS_8Relation">relation(to:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The relationship of the self <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> to the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>.
+ Relations are stored in Enums.swift. Formal defnitions available in the provided
+ links:
+ <a href="https://github.com/MatthewYork/DateTools#relationships">GitHub</a>,
+ <a href="http://www.codeproject.com/Articles/168662/Time-Period-Library-for-NET">CodeProject</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">relation</span><span class="p">(</span><span class="n">to</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/Relation.html">Relation</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The relationship between self and the given time period</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol6equalsFPS0__Sb"></a>
+                    <a name="//apple_ref/swift/Method/equals(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol6equalsFPS0__Sb">equals(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If <code>self.beginning</code> and <code>self.end</code> are equal to the beginning and end of the
+  given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">equals</span><span class="p">(</span><span class="n">_</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if the periods are the same</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol8isInsideFT2ofPS0___Sb"></a>
+                    <a name="//apple_ref/swift/Method/isInside(of:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol8isInsideFT2ofPS0___Sb">isInside(of:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>&rsquo;s beginning is before <code>self.beginning</code> and
+  if the given &lsquo;TimePeriod<code>&#39;s end is after</code>self.end`.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">isInside</span><span class="p">(</span><span class="n">of</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if self is inside of the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code></p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol8containsFTV10Foundation4Date8intervalOS_8Interval_Sb"></a>
+                    <a name="//apple_ref/swift/Method/contains(_:interval:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol8containsFTV10Foundation4Date8intervalOS_8Interval_Sb">contains(_:interval:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the given Date is after <code>self.beginning</code> and before <code>self.end</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">contains</span><span class="p">(</span><span class="n">_</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">interval</span><span class="p">:</span> <span class="kt"><a href="../Enums/Interval.html">Interval</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>interval</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether the edge of the date is included in the calculation</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> is inside of self</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol8containsFPS0__Sb"></a>
+                    <a name="//apple_ref/swift/Method/contains(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol8containsFPS0__Sb">contains(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>&rsquo;s beginning is after <code>self.beginning</code> and
+  if the given &lsquo;TimePeriod<code>&#39;s after is after</code>self.end`.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">contains</span><span class="p">(</span><span class="n">_</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> is inside of self</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol8overlapsFT4withPS0___Sb"></a>
+                    <a name="//apple_ref/swift/Method/overlaps(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol8overlapsFT4withPS0___Sb">overlaps(with:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If self and the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> share any sub-<code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">overlaps</span><span class="p">(</span><span class="n">with</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if there is a period of time that is shared by both <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>s</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol10intersectsFT4withPS0___Sb"></a>
+                    <a name="//apple_ref/swift/Method/intersects(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol10intersectsFT4withPS0___Sb">intersects(with:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If self and the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> overlap or the period&rsquo;s edges touch.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">intersects</span><span class="p">(</span><span class="n">with</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if there is a period of time or moment that is shared by both <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>s</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol6hasGapFT7betweenPS0___Sb"></a>
+                    <a name="//apple_ref/swift/Method/hasGap(between:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol6hasGapFT7betweenPS0___Sb">hasGap(between:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If self and the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> have no overlap or touching edges.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">hasGap</span><span class="p">(</span><span class="n">between</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if there is a period of time between self and the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> not contained by either period</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol3gapFT7betweenPS0___Sd"></a>
+                    <a name="//apple_ref/swift/Method/gap(between:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol3gapFT7betweenPS0___Sd">gap(between:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The period of time between self and the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> not contained by either.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">gap</span><span class="p">(</span><span class="n">between</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TimeInterval</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The gap between the periods. Zero if there is no gap.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol3gapFT7betweenPS0___GSqVS_9TimeChunk_"></a>
+                    <a name="//apple_ref/swift/Method/gap(between:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol3gapFT7betweenPS0___GSqVS_9TimeChunk_">gap(between:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The period of time between self and the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> not contained by either
+  as a <code><a href="../Structs/TimeChunk.html">TimeChunk</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">gap</span><span class="p">(</span><span class="n">between</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/TimeChunk.html">TimeChunk</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The gap between the periods, zero if there is no gap</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol7isAfterFT6periodPS0___Sb"></a>
+                    <a name="//apple_ref/swift/Method/isAfter(period:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol7isAfterFT6periodPS0___Sb">isAfter(period:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If self is after the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> chronologically. (A gap must exist between the two).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">isAfter</span><span class="p">(</span><span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if self is after the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code></p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol8isBeforeFT6periodPS0___Sb"></a>
+                    <a name="//apple_ref/swift/Method/isBefore(period:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol8isBeforeFT6periodPS0___Sb">isBefore(period:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If self is before the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> chronologically. (A gap must exist between the two).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">isBefore</span><span class="p">(</span><span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriodProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time period to compare to self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if self is after the given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code></p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/In%20Place"></a>
+                <a name="//apple_ref/swift/Section/In Place" class="dashAnchor"></a>
+                <a href="#/In%20Place">
+                  <h3 class="section-name">In Place</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol5shiftFT2bySd_T_"></a>
+                    <a name="//apple_ref/swift/Method/shift(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol5shiftFT2bySd_T_">shift(by:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>In place, shift the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> by a <code>TimeInterval</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">mutating</span> <span class="kd">func</span> <span class="nf">shift</span><span class="p">(</span><span class="n">by</span> <span class="nv">timeInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>timeInterval</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time interval to shift the period by</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol5shiftFT2byVS_9TimeChunk_T_"></a>
+                    <a name="//apple_ref/swift/Method/shift(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol5shiftFT2byVS_9TimeChunk_T_">shift(by:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>In place, shift the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> by a <code><a href="../Structs/TimeChunk.html">TimeChunk</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">mutating</span> <span class="kd">func</span> <span class="nf">shift</span><span class="p">(</span><span class="n">by</span> <span class="nv">chunk</span><span class="p">:</span> <span class="kt"><a href="../Structs/TimeChunk.html">TimeChunk</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chunk</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time chunk to shift the period by</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/In%20Place2"></a>
+                <a name="//apple_ref/swift/Section/In Place" class="dashAnchor"></a>
+                <a href="#/In%20Place2">
+                  <h3 class="section-name">In Place</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol8lengthenFT2bySd2atOS_6Anchor_T_"></a>
+                    <a name="//apple_ref/swift/Method/lengthen(by:at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol8lengthenFT2bySd2atOS_6Anchor_T_">lengthen(by:at:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>In place, lengthen the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>, anchored at the beginning, end or center</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">mutating</span> <span class="kd">func</span> <span class="nf">lengthen</span><span class="p">(</span><span class="n">by</span> <span class="nv">timeInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="n">at</span> <span class="nv">anchor</span><span class="p">:</span> <span class="kt"><a href="../Enums/Anchor.html">Anchor</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>timeInterval</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time interval to lengthen the period by</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>anchor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The anchor point from which to make the change</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol8lengthenFT2byVS_9TimeChunk2atOS_6Anchor_T_"></a>
+                    <a name="//apple_ref/swift/Method/lengthen(by:at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol8lengthenFT2byVS_9TimeChunk2atOS_6Anchor_T_">lengthen(by:at:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>In place, lengthen the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>, anchored at the beginning or end</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">mutating</span> <span class="kd">func</span> <span class="nf">lengthen</span><span class="p">(</span><span class="n">by</span> <span class="nv">chunk</span><span class="p">:</span> <span class="kt"><a href="../Structs/TimeChunk.html">TimeChunk</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">anchor</span><span class="p">:</span> <span class="kt"><a href="../Enums/Anchor.html">Anchor</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chunk</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time chunk to lengthen the period by</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>anchor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The anchor point from which to make the change</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol7shortenFT2bySd2atOS_6Anchor_T_"></a>
+                    <a name="//apple_ref/swift/Method/shorten(by:at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol7shortenFT2bySd2atOS_6Anchor_T_">shorten(by:at:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>In place, shorten the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>, anchored at the beginning, end or center</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">mutating</span> <span class="kd">func</span> <span class="nf">shorten</span><span class="p">(</span><span class="n">by</span> <span class="nv">timeInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="n">at</span> <span class="nv">anchor</span><span class="p">:</span> <span class="kt"><a href="../Enums/Anchor.html">Anchor</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>timeInterval</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time interval to shorten the period by</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>anchor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The anchor point from which to make the change</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE14DateToolsTestsPS_18TimePeriodProtocol7shortenFT2byVS_9TimeChunk2atOS_6Anchor_T_"></a>
+                    <a name="//apple_ref/swift/Method/shorten(by:at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE14DateToolsTestsPS_18TimePeriodProtocol7shortenFT2byVS_9TimeChunk2atOS_6Anchor_T_">shorten(by:at:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>In place, shorten the <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>, anchored at the beginning or end</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">mutating</span> <span class="kd">func</span> <span class="nf">shorten</span><span class="p">(</span><span class="n">by</span> <span class="nv">chunk</span><span class="p">:</span> <span class="kt"><a href="../Structs/TimeChunk.html">TimeChunk</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">anchor</span><span class="p">:</span> <span class="kt"><a href="../Enums/Anchor.html">Anchor</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chunk</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time chunk to shorten the period by</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>anchor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The anchor point from which to make the change</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-11-02)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
